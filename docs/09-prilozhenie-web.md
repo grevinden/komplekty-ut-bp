@@ -11,6 +11,11 @@ prev_title: "8. Источники"
 
 ## 9. Приложение. Открытый интернет: что добавили форумы и практика
 
+**Что вы узнаете.** Что нашлось в открытом интернете по теме и, что важнее,
+чего там нет.
+**Что нужно знать заранее.** §5–6: без них приложение читается как набор
+разрозненных случаев.
+
 Помимо ИТС материал собран по открытому интернету (30–31.10.2026, четыре
 независимых поисковых фронта; ИТС на этом этапе сознательно исключался, чтобы
 источники не «заражали» друг друга). Правило достоверности прежнее: **[ВЕБ 2+]**
@@ -56,15 +61,23 @@ prev_title: "8. Источники"
 <a name="9.3"></a>
 ### 9.3. Обходные решения, которые реально применяют [ВЕБ 2+]
 
-* правка правил обмена (КД) под разукомплектацию — ГДЗ задача 17448, разборы
-  иронtoolS и др.;
+* правка правил обмена (КД) под разукомплектацию — разборы интеграторов
+  (отчёт 04); страница irontools на 31.10.2026 отдаёт 403/пустой ответ, поэтому
+  ссылка не ставится. ГДЗ задача 17448 известна только по форумным упоминаниям
+  [НЕ ПОДТВЕРЖДЕНО, §9.9];
 * публичная доработка «УТ: Передача разукомплектации в БП при обмене»
-  (1c.ru/specialprojects/specialprojects/upd/675);
-* расширения и обработки: «комплектация по данным продажи» (42clouds),
-  обработка 1module (12 500 ₽), модуль smarthub;
-* мастер-база НСИ — УТ, односторонняя несинхронная выгрузка в БП;
-* открытые репозитории файлов правил обмена (ExchangeRules, ~8 форков) — handy
-  для изучения фактических правил конвертации комплектации без доступа к ИТС.
+  (1c.ru/specialprojects/specialprojects/upd/675) — на 31.10.2026 страница
+  отдаёт 404 [НЕ ПОДТВЕРЖДЕНО];
+* расширения и обработки: «комплектация по данным продажи»
+  ([42Clouds](https://42clouds.com/ru-ru/manuals/sborka-razborka-komplektov-v-1s-upravlenie-torgovley-11-5/)),
+  обработка [1module, 12 500 ₽](https://1module.ru/TopCat/index.php?ELEMENT_ID=5898),
+  модуль [smarthub](https://smarthub-1c.ru/blog/komplektaciya-nabory-ut11-n131);
+* мастер-база НСИ — УТ, односторонняя несинхронная выгрузка в БП (отчёт 09);
+* открытые файлы правил обмена: подборка форков ExchangeRules при прямой
+  проверке 31.10.2026 отдаёт 404; жив остался
+  [slknnk/1C-ExchangeRules-Trade103ToAcc30](https://github.com/slknnk/1C-ExchangeRules-Trade103ToAcc30) —
+  старый коннектор УТ 10.3 → БП 3.0, полезен для сверки маппинга видов операции
+  (отчёт 07).
 
 <a name="9.4"></a>
 ### 9.4. Типовые отказы синхронизации, специфичные для комплектов [ВЕБ 2+]
@@ -176,6 +189,15 @@ prev_title: "8. Источники"
   механики — вид документа отгрузки наследует настройку вывода набора или
   состава.
 
+**Прямые ссылки раздела** (обращение 31.10.2026): [mista 810117 «УТ 11,
+набор-комплекты»](https://forum.mista.ru/topic/810117) · [erp.band,
+24.08.2026](https://blog.erp.band/dinamicheskie-nabory-1s-erp/) · [coderstar,
+23.07.2026](https://www.coderstar.ru/rasshireniya/nabory-komplekty/) ·
+[coderstar, 27.08.2026 (УТ 11.5.27.47)](https://www.coderstar.ru/kurs-ut11/nabory-nomenklatury) ·
+[Кодерлайн, 19.02.2023](https://www.koderline.ru/expert/narabotki/article-nabory-v-konfiguratsii-1s-upravlenie-nashey-firmoy-formirovanie-i-prodazha-naborov/) ·
+[rdv-market, 07.03.2024](https://rdv-market.ru/press-center/blog/otlichie-naborov-komplektov-i-upakovok-v-1s/) ·
+[infostart 927606](https://infostart.ru/1c/tools/927606/).
+
 <a name="9.8"></a>
 ### 9.8. Обменный фронт: вторая волна (отчёт 09, 31.10.2026)
 
@@ -207,6 +229,12 @@ prev_title: "8. Источники"
 режимом одной мастер-базы и правами на заведение позиций [одиночный]; расхождение
 себестоимостей УТ/БП при одинаковом ФИФО описано источником с пометкой
 вероятно-ИИ-генерации — в учебник не взять (проводки оттуда не брать).
+
+**Прямые ссылки раздела** (обращение 31.10.2026): [mista 879630, 06.2022](https://forum.mista.ru/topic/879630) ·
+[mista 896816, 12.2024](https://forum.mista.ru/topic/896816) · [mista 870401,
+2021](https://forum.mista.ru/topic/870401) · [prau.pro,
+30.10.2026](https://prau.pro/articles/sinhronizaciya-1c-ut-i-buhgalterii) ·
+[Клерк, 26.08.2025](https://club.klerk.ru/t/ne-vygruzhaetsya-komplektacziya-pri-obmene-ut-11-5-v-buh-3/1257801).
 
 <a name="9.9"></a>
 ### 9.9. Разукомплектация в практике: доли, «пропавшая» оплата, ГТД (отчёт 07, 31.10.2026)
@@ -289,5 +317,14 @@ prev_title: "8. Источники"
 самой жалобы «Сборка (разборка) не выгружается по EnterpriseData»: опора — форумные
 случаи §5.4 (отчёт 01) и отсутствие правила в типовом составе КД; упоминание на infostart
 остаётся [слух по сниппету].
+
+**Прямые ссылки раздела** (обращение 31.10.2026, кроме оговорённых): [mista
+786422, 02.12.2016](https://forum.mista.ru/topic/786422) · [Кодерлайн,
+24.03.2023](https://www.koderline.ru/expert/narabotki/article-dolya-stoimosti-v-1s) ·
+[42Clouds, 2023 и 2025](https://42clouds.com/ru-ru/manuals/sborka-razborka-komplektov-v-1s-upravlenie-torgovley-11-5/) ·
+[efsol, 08.05.2025](https://efsol.ru/manuals/creation-of-set-with-number-gtd-ut/) ·
+[БухЭксперт8, 07.06.2025](https://buhexpert8.ru/voprosy/voprosy-1s-buhgalteriya/razukomlektatsiya.html) ·
+[infostart №334206 (через
+Wayback)](http://web.archive.org/web/20250812115622/https://infostart.ru/marketplace/334206/).
 
 **Термины этой главы** (пояснения — в [словаре](terminy/index.html)): [Обмен](terminy/obmen/00-chto-takoe-obmen.html) · [Выгрузка и загрузка](terminy/obmen/02-vygruzka-i-zagruzka.html) · [УИД](terminy/obmen/03-uid.html) · [Правила конвертации (маппинг)](terminy/obmen/04-pravila-konvertacii.html) · [EnterpriseData](terminy/obmen/05-enterprisedata.html) · [НСИ](terminy/obmen/06-nsi.html) · [Разукомплектация](terminy/razukomplektaciya.html) · [Доля стоимости](terminy/sebestoimost/dolya-stoimosti.html) · [Партия](terminy/sebestoimost/partiya.html) · [ГТД](terminy/proslezh/gtd.html) · [УПД](terminy/proslezh/upd.html) · [Подстрока УПД](terminy/proslezh/podstroka.html).
