@@ -17,7 +17,6 @@
     Собрано 31.10.2026 по текстам ИТС и открытому интернету ·
     метод и метки достоверности — на <a href="{{ '/' | relative_url }}">обложке</a>
   </footer>
-  <script defer src="{{ '/assets/mermaid.min.js' | relative_url }}"></script>
   <script type="module">
     if (document.querySelector('code.language-mermaid')) {
       document.querySelectorAll('pre > code.language-mermaid').forEach(code => {
@@ -25,6 +24,13 @@
         div.className = 'mermaid';
         div.textContent = code.textContent;
         code.parentElement.replaceWith(div);
+      });
+      await new Promise((res, rej) => {
+        const s = document.createElement('script');
+        s.src = "{{ '/assets/mermaid.min.js' | relative_url }}";
+        s.onload = res;
+        s.onerror = () => rej('mermaid.min.js не загрузился');
+        document.head.append(s);
       });
       mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict' });
       await mermaid.run({ querySelector: '.mermaid' });
