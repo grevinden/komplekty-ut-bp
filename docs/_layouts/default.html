@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ru' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    Собрано 31.10.2026 по текстам ИТС и открытому интернету ·
+    метод и метки достоверности — на <a href="{{ '/' | relative_url }}">обложке</a>
+  </footer>
+</body>
+</html>
