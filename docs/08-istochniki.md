@@ -53,18 +53,39 @@ next_title: "9. Приложение"
    (§4.5, п.3; механика партий — §6.5).
 
 <a name="8.3"></a>
-### 8.3. Где лежат тексты
+### 8.3. Реестр источников
 
-* прежние выгрузки (10 статей): `/home/anton/Coddy/itsdl/c_*.txt`,
-  финальный ответ предыдущей сессии — `/home/anton/Coddy/itsdl/FINAL_ANSWER_komplety_nabory.md`;
-* новые цитаты и описание добычи (браузер, живая сессия ИТС):
-  `its/EVIDENCE-2026-10-30.md`;
-* полные отчёты фронтов открытого интернета (31.10.2026, ИТС исключён):
-  `net/01-obmen-sborka-razborka.md` (248 строк, 27 находок),
-  `net/02-nabory.md`, `net/03-bp-provodki-uchet.md` (484 строки),
-  `net/04-praktika-alternativy.md` (646 строк), `net/04-community-cases.md`
-  (конспект форумных цитат). Каждая находка — с URL, датой и меткой
-  достоверности.
+Все сокращения, которые встречаются в тексте книги, расшифрованы здесь — так
+каждый довод можно дойти до первоисточника.
+
+**ИТС.** Координата `ut8doc/339` читается так: `ut8doc` — база документации
+«Управление торговлей 11» в поиске ИТС, `339` — номер документа в этой базе.
+Открывается по адресу `https://its.1c.ru/db/ut8doc/content/339/hdoc`, нужна
+подписка ИТС. Пример: [bp8doc/160 «Комплектация
+номенклатуры»](https://its.1c.ru/db/bp8doc/content/160/hdoc). Полный список
+использованных координат — §8.1; дословные цитаты, по которым сверялась книга, —
+в файле
+[its/EVIDENCE-2026-10-30.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/its/EVIDENCE-2026-10-30.md).
+
+**Отчёты открытого интернета.** Метка вида `net/09` в тексте означает отчёт
+поискового фронта из таблицы ниже. В каждом отчёте находка записана с URL, датой
+обращения и меткой достоверности; ИТС в этих отчётах не используется.
+
+| Метка | О чём отчёт | Файл отчёта |
+|---|---|---|
+| `net/01` | обмен, сборка и разборка | [01-obmen-sborka-razborka.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/01-obmen-sborka-razborka.md) |
+| `net/02` | динамические наборы | [02-nabory.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/02-nabory.md) |
+| `net/03` | проводки БП по комплектации | [03-bp-provodki-uchet.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/03-bp-provodki-uchet.md) |
+| `net/04` | практика и альтернативы | [04-praktika-alternativy.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/04-praktika-alternativy.md), конспект форумных цитат — [04-community-cases.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/04-community-cases.md) |
+| `net/05` | УПД и подстроки прослеживаемости | [05-upd-podstroki-prosl.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/05-upd-podstroki-prosl.md) |
+| `net/06` | партионный учёт и себестоимость | [06-parti-uchet.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/06-parti-uchet.md) |
+| `net/07` | разукомплектация: практика | [07-razukomplektaciya-opyt.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/07-razukomplektaciya-opyt.md) |
+| `net/08` | наборы: вторая волна | [08-nabory-opyt-2.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/08-nabory-opyt-2.md) |
+| `net/09` | обмен: вторая волна | [09-obmen-opyt-2.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/net/09-obmen-opyt-2.md) |
+
+Ранние сводки прошлой редакции ответа (десять выгруженных статей ИТС и общий
+текст) в книгу не переносились: всё, что из них подтвердилось, стоит в §8.1 с
+координатой ИТС, всё, что не подтвердилось, — в §8.2.
 
 ---
 
