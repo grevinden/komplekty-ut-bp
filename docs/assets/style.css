@@ -71,3 +71,8 @@ th, td {
 }
 th { background: #f6f8fa }
 hr { border: none; border-top: 1px solid #d0d7de; margin: 2rem 0 }
+.mermaid {
+  text-align: center;
+  overflow-x: auto;
+  margin: 1em 0;
+}
