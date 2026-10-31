@@ -4,17 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css?v=3' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css?v=4' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% if page.section %}
+    <nav class="crumbs" aria-label="Вы находитесь здесь">
+      <a href="{{ '/' | relative_url }}">О книге</a> <span aria-hidden="true">→</span>
+      <a href="{{ page.section_url | relative_url }}">{{ page.section }}</a> <span aria-hidden="true">→</span>
+      <span class="current">{{ page.title }}</span>
+    </nav>
+    {% endif %}
   </header>
   <main>
+    {% if page.prev_url or page.next_url %}{% include pager.html %}{% endif %}
     {{ content }}
+    {% if page.prev_url or page.next_url %}{% include pager.html bottom=true %}{% endif %}
   </main>
   <footer class="site-footer">
-    Собрано 31.10.2026 по текстам ИТС и открытому интернету ·
+    Собрано {{ site.time | date: "%d.%m.%Y" }}{% if site.github.build_revision %} · версия {{ site.github.build_revision | slice: 0, 7 }}{% endif %} ·
     метод и метки достоверности — на <a href="{{ '/' | relative_url }}">обложке</a>
   </footer>
   <script type="module">

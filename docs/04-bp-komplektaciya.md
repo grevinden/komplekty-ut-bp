@@ -1,12 +1,16 @@
 ---
 layout: default
-title: "4. Часть III. БП 3.0: комплектация номенклатуры"
+title: "4. БП 3.0: комплектация номенклатуры"
+section: "Как устроено"
+section_url: "index.html#kak-ustroeno"
+prev_url: "03-ut-nabory.html"
+prev_title: "3. Наборы в УТ"
+next_url: "05-perenos-dannyh.html"
+next_title: "5. Перенос данных"
 ---
 
-[← Оглавление](index.html) · [3. УТ: наборы](<03-ut-nabory.html>) · [5. Перенос данных](<05-perenos-dannyh.html>)
-
 <a name="4"></a>
-## 4. Часть III. БП 3.0: комплектация номенклатуры
+## 4. БП 3.0: комплектация номенклатуры
 
 <a name="4.1"></a>
 ### 4.1. Включение настройки и документ (`bp8doc/160`, п. 6.4)
@@ -63,7 +67,7 @@ title: "4. Часть III. БП 3.0: комплектация номенклат
 > выбрать основной. Основная спецификация автоматически подставляется в
 > документы.**» — `bp8doc/165`
 
-**Это отдельный, недооценённый объект учёта.** Спецификация БП — не отражение
+**Это отдельный, недооценённый объект учёта.** [Спецификация](terminy/specifikaciya.html) БП — не отражение
 варианта комплектации УТ, а самостоятельный справочник, который заводится руками
 (или обработкой) и живёт своей жизнью. См. проблему №4 в §5.7.
 
@@ -141,3 +145,4 @@ title: "4. Часть III. БП 3.0: комплектация номенклат
 
 ---
 
+**Термины этой главы** (пояснения — в [словаре](terminy/index.html)): [Разукомплектация](terminy/razukomplektaciya.html) · [Спецификация](terminy/specifikaciya.html) · [Вид номенклатуры](terminy/vid-nomenklatury.html) · [Себестоимость](terminy/sebestoimost/00-chto-takoe-sebestoimost.html) · [Доля стоимости](terminy/sebestoimost/dolya-stoimosti.html) · [Партия](terminy/sebestoimost/partiya.html) · [Субконто](terminy/sebestoimost/subkonto.html) · [МПЗ и ФСБУ 5/2019](terminy/sebestoimost/mzp-fsbu5.html) · [Метод оценки](terminy/sebestoimost/metod-otsenki.html) · [ИТС](terminy/proslezh/its.html). Подробнее о партиях, долях и методах оценки — [раздел словаря «Себестоимость»](terminy/sebestoimost/index.html).

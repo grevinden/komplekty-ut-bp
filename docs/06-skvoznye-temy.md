@@ -1,18 +1,22 @@
 ---
 layout: default
-title: "6. Часть V. Сквозные темы"
+title: "6. Сквозные темы"
+section: "Что ломается"
+section_url: "index.html#chto-lomaetsya"
+prev_url: "05-perenos-dannyh.html"
+prev_title: "5. Перенос данных"
+next_url: "07-metodika-i-testy.html"
+next_title: "7. Методика и тесты"
 ---
 
-[← Оглавление](index.html) · [5. Перенос данных](<05-perenos-dannyh.html>) · [7. Методика и тесты](<07-metodika-i-testy.html>)
-
 <a name="6"></a>
-## 6. Часть V. Сквозные темы
+## 6. Сквозные темы
 
 <a name="6.1"></a>
-### 6.1. ГТД и страна происхождения: УТ-механика и налоговый контур
+### 6.1. [ГТД](terminy/proslezh/gtd.html) и страна происхождения: УТ-механика и налоговый контур
 
 Механика УТ — наследование от основной комплектующей (§2.4, `ut8doc/339`).
-Но есть второй, независимый контур — **прослеживаемость**, и там своя логика,
+Но есть второй, независимый контур — **[прослеживаемость](terminy/proslezh/proslezhivaemost.html)**, и там своя логика,
 подтверждённая разъяснениями ФНС (материалы ИТС датированы **02.01.2026**):
 
 > «Как разъяснила ФНС России в п. 7 письма от 12.05.2021 № ЕА-4-15/6469@, товар,
@@ -193,3 +197,4 @@ irgp2.ru]. Стандарт это прямо ограничивает: п. 36 �
 
 ---
 
+**Термины этой главы** (пояснения — в [словаре](terminy/index.html)): [ГТД](terminy/proslezh/gtd.html) · [Прослеживаемость](terminy/proslezh/proslezhivaemost.html) · [РНПТ](terminy/proslezh/rnpt.html) · [УПД](terminy/proslezh/upd.html) · [Подстрока УПД](terminy/proslezh/podstroka.html) · [ЭДО](terminy/proslezh/edo.html) · [Себестоимость](terminy/sebestoimost/00-chto-takoe-sebestoimost.html) · [Партия](terminy/sebestoimost/partiya.html) · [Доля стоимости](terminy/sebestoimost/dolya-stoimosti.html) · [Метод оценки](terminy/sebestoimost/metod-otsenki.html) · [МПЗ и ФСБУ 5/2019](terminy/sebestoimost/mzp-fsbu5.html) · [Субконто](terminy/sebestoimost/subkonto.html).

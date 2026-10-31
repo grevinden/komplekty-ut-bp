@@ -1,9 +1,13 @@
 ---
 layout: default
 title: "8. Источники и статус достоверности"
+section: "Что делать"
+section_url: "index.html#chto-delat"
+prev_url: "07-metodika-i-testy.html"
+prev_title: "7. Методика и тесты"
+next_url: "09-prilozhenie-web.html"
+next_title: "9. Приложение"
 ---
-
-[← Оглавление](index.html) · [7. Методика и тесты](<07-metodika-i-testy.html>) · [9. Приложение: веб](<09-prilozhenie-web.html>)
 
 <a name="8"></a>
 ## 8. Источники и статус достоверности
@@ -64,3 +68,4 @@ title: "8. Источники и статус достоверности"
 
 ---
 
+**Термин этой главы** (пояснение — в [словаре](terminy/index.html)): [ИТС](terminy/proslezh/its.html).
