@@ -8,3 +8,6 @@
 *.tmp
 *.bak
 .DS_Store
+
+# Локальные данные
+PATH.md
