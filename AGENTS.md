@@ -20,6 +20,9 @@
 - `.handoff/` — контекст более ранней сессии. `RESEARCH-plan.md` — статусы фронтов.
 - Прежняя редакция ответа и выгрузки статей ИТС: `/home/anton/Coddy/itsdl/`.
 - Git: один репозиторий, remote `origin` = https://github.com/grevinden/komplekty-ut-bp (публичный). Сайт https://grevinden.github.io/komplekty-ut-bp/ собирается GitHub Pages из папки `docs/` ветки `main` (Settings → Pages → `/docs`). Публикация — `./publish-site.sh "комментарий"` (коммит + push + ожидание сборки). Отдельного каталога сайта и rsync больше нет. Репозиторий публичный: `net/`, `its/` видны снаружи, но на сайт не публикуются.
+- Семантический поиск по проекту — `cix` (индекс `local:...complect` создан, watcher активен):
+  `cix search "как читают проводки с субконто"`, `cix symbols`, `cix file <путь>`, `cix references`.
+  Поиск по смыслу, хорошо находит место в книге/коде по формулировке вопроса; grep — для точных строк.
   `.handoff/` в `.gitignore`:
   в `messages.json` ИТС-учётка открытым текстом — в историю не брать никогда.
 
