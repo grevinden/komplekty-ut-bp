@@ -172,9 +172,13 @@ EVIDENCE-2026-10-31-f10). Поэтому в книге стоит новая к�
   поддерживаемых объектов формата); продолжение 03.11.2026 — продажа набора
   [EVIDENCE-2026-11-03-nabor.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/cfg/EVIDENCE-2026-11-03-nabor.md)
   (ТК-4: приезжают только комплектующие) и превращение строк в комплект
-  постобработкой
-  [EVIDENCE-2026-11-03-nabor-komplekt.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/cfg/EVIDENCE-2026-11-03-nabor-komplekt.md)
-  (ТК-12: замена товарных строк, услуги отдельно, повторная загрузка, обратный поток);
+  постобработкой — чистый прогон модели «одна карточка, спецификация и сборка на
+  каждую продажу»
+  [EVIDENCE-2026-11-03-spec-na-prodazhu.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/cfg/EVIDENCE-2026-11-03-spec-na-prodazhu.md)
+  (ТК-12: замена товарных строк, услуги отдельно, две спецификации и две сборки,
+  повторная загрузка, обратный поток); первый подход — реестр версий и отдельный
+  комплект на версию — помечен там как заменённый
+  [EVIDENCE-2026-11-03-nabor-komplekt.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/cfg/EVIDENCE-2026-11-03-nabor-komplekt.md);
   пометка набора в строке и версия объекта
   [EVIDENCE-2026-11-03-versii.md](https://github.com/grevinden/komplekty-ut-bp/blob/main/cfg/EVIDENCE-2026-11-03-versii.md)
   (11 полей строки в сообщении, `ВерсияДанных` как свойство, версия набора не
