@@ -52,6 +52,9 @@ title: "Комплекты и наборы в УТ 11.5 и БП 3.0: как ус
 **[9. Открытый интернет: что добавили форумы и практика](09-prilozhenie-web.html)**
 [9.1 Веб-дополнения к разделам](09-prilozhenie-web.html#9.1) · [9.2 Архитектуры решений](09-prilozhenie-web.html#9.2) · [9.3 Обходные решения](09-prilozhenie-web.html#9.3) · [9.4 Типовые отказы синхронизации](09-prilozhenie-web.html#9.4) · [9.5 Вопросы оператору](09-prilozhenie-web.html#9.5) · [9.6 Методика веб-этапа](09-prilozhenie-web.html#9.6) · [9.7 Наборы в практике](09-prilozhenie-web.html#9.7) · [9.8 Обменный фронт](09-prilozhenie-web.html#9.8) · [9.9 Разукомплектация в практике](09-prilozhenie-web.html#9.9)
 
+**[10. Расширение формата обмена EnterpriseData](10-rasshirenie-formata.html)**
+[10.1 Зачем расширять формат](10-rasshirenie-formata.html#10.1) · [10.2 Как устроен механизм](10-rasshirenie-formata.html#10.2) · [10.3 Наши базы на поддержке](10-rasshirenie-formata.html#10.3) · [10.4 Процедура по статье ИТС](10-rasshirenie-formata.html#10.4) · [10.5 Как вписать в пару УТ ↔ БП](10-rasshirenie-formata.html#10.5) · [10.6 Что не подтверждено](10-rasshirenie-formata.html#10.6) · [10.7 Источники](10-rasshirenie-formata.html#10.7)
+
 ## С чего начать: маршруты по ролям
 
 - **Бухгалтер в БП.** [4. Комплектация номенклатуры](04-bp-komplektaciya.html), [4.2 Себестоимость](04-bp-komplektaciya.html#4.2), [4.5 Проводки](04-bp-komplektaciya.html#4.5), [6.3 Точка стыка себестоимости](06-skvoznye-temy.html#6.3), [6.5 Партии и доли](06-skvoznye-temy.html#6.5).

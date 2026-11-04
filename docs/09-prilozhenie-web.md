@@ -5,6 +5,8 @@ section: "Приложение"
 section_url: "index.html#prilozhenie"
 prev_url: "08-istochniki.html"
 prev_title: "8. Источники"
+next_url: "10-rasshirenie-formata.html"
+next_title: "10. Расширение формата"
 ---
 
 <a name="9"></a>
