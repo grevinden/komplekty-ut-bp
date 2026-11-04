@@ -1,0 +1,8 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/edi/edi_stnd_ext_enterprisedata/EnterpriseData/1.20" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.20"/>
+	<objectType xmlns:d2p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.20" name="Документ.РеализацияТоваровУслуг.Товары.Строка" base="d2p1:Документ.РеализацияТоваровУслуг.Товары.Строка" open="true">
+		<property name="КомплектыОбмен_НаборУИД" type="xs:string" lowerBound="0"/>
+		<property name="КомплектыОбмен_Набор" type="xs:string" lowerBound="0"/>
+		<property name="КомплектыОбмен_КоличествоНаборов" type="xs:decimal" lowerBound="0"/>
+	</objectType>
+</package>
