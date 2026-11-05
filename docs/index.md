@@ -55,11 +55,15 @@ title: "Комплекты и наборы в УТ 11.5 и БП 3.0: как ус
 **[10. Расширение формата обмена EnterpriseData](10-rasshirenie-formata.html)**
 [10.1 Зачем расширять формат](10-rasshirenie-formata.html#10.1) · [10.2 Как устроен механизм](10-rasshirenie-formata.html#10.2) · [10.3 Наши базы на поддержке](10-rasshirenie-formata.html#10.3) · [10.4 Процедура по статье ИТС](10-rasshirenie-formata.html#10.4) · [10.5 Как вписать в пару УТ ↔ БП](10-rasshirenie-formata.html#10.5) · [10.6 Что не подтверждено](10-rasshirenie-formata.html#10.6) · [10.7 Источники](10-rasshirenie-formata.html#10.7)
 
+**[11. Комплект расширений: КомплектыОбмен, КомплектыБП, КомплектыУТ](11-rasshirenie-komplekty.html)**
+[11.1 Почему расширений три](11-rasshirenie-komplekty.html#11.1) · [11.2 Состав поимённо](11-rasshirenie-komplekty.html#11.2) · [11.3 Конвейер обработки](11-rasshirenie-komplekty.html#11.3) · [11.4 Установка](11-rasshirenie-komplekty.html#11.4) · [11.5 Настройки и управление](11-rasshirenie-komplekty.html#11.5) · [11.6 Приёмка прогоном](11-rasshirenie-komplekty.html#11.6) · [11.7 Ограничения](11-rasshirenie-komplekty.html#11.7) · [11.8 Источники](11-rasshirenie-komplekty.html#11.8)
+
 ## С чего начать: маршруты по ролям
 
 - **Бухгалтер в БП.** [4. Комплектация номенклатуры](04-bp-komplektaciya.html), [4.2 Себестоимость](04-bp-komplektaciya.html#4.2), [4.5 Проводки](04-bp-komplektaciya.html#4.5), [6.3 Точка стыка себестоимости](06-skvoznye-temy.html#6.3), [6.5 Партии и доли](06-skvoznye-temy.html#6.5).
 - **Внедренец, консультант.** [1. Главная карта](01-glavnaya-karta.html), [7.1 Матрица решений](07-metodika-i-testy.html#7.1), [7.2 Чек-лист НСИ](07-metodika-i-testy.html#7.2), [7.4 Что вести руками](07-metodika-i-testy.html#7.4), затем [5. Перенос данных](05-perenos-dannyh.html).
 - **Менеджеры продают наборами, а в бухгалтерии нужен комплект.** [5.13 Набор → комплект постобработкой](05-perenos-dannyh.html#5.13): одна карточка комплекта, спецификация и сборка на каждую продажу. [Версия набора](terminy/versiya-nabora.html), [ТК-12 и ТК-14](07-metodika-i-testy.html#7.3), [Спецификация](terminy/specifikaciya.html).
+- **Разработчик, который ставит готовое.** [11. Комплект расширений](11-rasshirenie-komplekty.html): состав, установка из `dist/*.cfe`, настройки, приёмка. Механизм формата — [10. Расширение EnterpriseData](10-rasshirenie-formata.html).
 - **Программист, интегратор.** [«Азбука обмена»](terminy/obmen/00-chto-takoe-obmen.html), [5. Перенос данных](05-perenos-dannyh.html) целиком — особенно [5.3](05-perenos-dannyh.html#5.3), [5.4](05-perenos-dannyh.html#5.4), [5.8](05-perenos-dannyh.html#5.8), затем [8. Источники](08-istochniki.html).
 - **Руководитель.** [Руководителю: что можно и чего нельзя](00-direktoru.html), [7.1 Матрица решений](07-metodika-i-testy.html#7.1), [7.4 Что придётся вести руками](07-metodika-i-testy.html#7.4), [8.2 Чего доказательств нет](08-istochniki.html#8.2).
 - **Обмен сломался, надо починить сейчас.** [5.12 Типовые отказы обмена](05-perenos-dannyh.html#5.12), [9.3 Обходные решения](09-prilozhenie-web.html#9.3), главная причина — [5.4 Разукомплектация](05-perenos-dannyh.html#5.4).
