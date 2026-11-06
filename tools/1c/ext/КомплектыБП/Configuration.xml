@@ -73,6 +73,7 @@
 			<Document>РеализацияТоваровУслуг</Document>
 			<Enum>КомплектыБП_СостояниеОбработки</Enum>
 			<InformationRegister>КомплектыБП_ЖурналОбработки</InformationRegister>
+			<EventSubscription>КомплектыБП_ПослеЗаписиРеализации</EventSubscription>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
