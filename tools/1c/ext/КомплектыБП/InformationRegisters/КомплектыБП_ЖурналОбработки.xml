@@ -511,11 +511,11 @@
 							<v8:content>Ключ группы</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Ключ единицы обработки: УИД набора, характеристика и ставка НДС</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>36</v8:Length>
+							<v8:Length>200</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
