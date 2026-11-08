@@ -1,0 +1,66 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // Поиск по выгрузкам конфигураций 1С (Confaster MCP, пакет confaster-mcp).
+  // Индекс SQLite создаётся автоматически в <выгрузка>/.index/onec_search.db;
+  // первый запуск индексирует выгрузку, поэтому увеличены таймауты startup/catalog.
+  //   buh — БП 3.0.208.14, trd — УТ 11.5.22.186 (см. PATH.md).
+  // Расширения задаются парами "имя|путь" в --extension-root (можно несколько).
+  // На 1c-bp расширения не подключены — при необходимости добавить
+  // КомплектыБП и КомплектыОбмен так же, как ниже на 1c-ut.
+  "mcp": {
+    "servers": {
+      // В БП работает пара расширений: КомплектыОбмен (ядро свёртки, оно же на УТ)
+      // и КомплектыБП (адаптер приёма) — см. cfg/EVIDENCE-2026-11-05-ext-install.md.
+      "1c-bp": {
+        "type": "local",
+        "command": [
+          "/usr/bin/confaster-mcp",
+          "--export-root",
+          "/home/anton/Documents/minskaya/e1c_export/buh",
+          "--extension-root",
+          "КомплектыБП|/home/anton/Documents/minskaya/complect/tools/1c/ext/КомплектыБП",
+          "--extension-root",
+          "КомплектыОбмен|/home/anton/Documents/minskaya/complect/tools/1c/ext/КомплектыОбмен",
+        ],
+        // execution = 600 с: первая полная индексация выгрузки дольше 120 с.
+        "timeout": { "startup": 600000, "catalog": 600000, "execution": 600000 },
+      },
+      // В УТ работает пара расширений: КомплектыОбмен (ядро свёртки, оно же на БП)
+      // и КомплектыУТ (адаптер отправки) — см. cfg/EVIDENCE-2026-11-05-ext-install.md.
+      // Плюс рабочие расширения УТ из ~/Documents/minskaya/ext/ut (имена — как в
+      // Configuration.xml, а не как каталоги: EditNDS, SmartAsyst, ТРЛИНК, ...).
+      "1c-ut": {
+        "type": "local",
+        "command": [
+          "/usr/bin/confaster-mcp",
+          "--export-root",
+          "/home/anton/Documents/minskaya/e1c_export/trd",
+          "--extension-root",
+          "КомплектыУТ|/home/anton/Documents/minskaya/complect/tools/1c/ext/КомплектыУТ",
+          "--extension-root",
+          "КомплектыОбмен|/home/anton/Documents/minskaya/complect/tools/1c/ext/КомплектыОбмен",
+          "--extension-root",
+          "EditNDS|/home/anton/Documents/minskaya/ext/ut/edis_nds",
+          "--extension-root",
+          "SmartAsyst|/home/anton/Documents/minskaya/ext/ut/smart_asyst",
+          "--extension-root",
+          "ЗадолженностьКлиента|/home/anton/Documents/minskaya/ext/ut/ЗадолженностьКлиента",
+          "--extension-root",
+          "ЗапретРаспроведенияУдаления|/home/anton/Documents/minskaya/ext/ut/ЗапретРаспроведенияУдаления",
+          "--extension-root",
+          "КонтурДиадок|/home/anton/Documents/minskaya/ext/ut/КонтурДиадок",
+          "--extension-root",
+          "КонтурИнтеграция|/home/anton/Documents/minskaya/ext/ut/КонтурИнтеграция",
+          "--extension-root",
+          "РасширениеКонтурЛогистика|/home/anton/Documents/minskaya/ext/ut/КонтурЛогистика",
+          "--extension-root",
+          "ТРЛИНК|/home/anton/Documents/minskaya/ext/ut/трлинк",
+          "--extension-root",
+          "ТС_Техносервис|/home/anton/Documents/minskaya/ext/ut/тс_техносервис",
+        ],
+        "timeout": { "startup": 600000, "catalog": 600000, "execution": 600000 },
+      },
+    },
+  },
+}
